@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Epilogue";
+  src: url(../../fonts/Epilogue-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url(../../fonts/Epilogue-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url(../../fonts/Epilogue-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url(../../fonts/Epilogue-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url(../../fonts/Epilogue-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}

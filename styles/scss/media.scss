@@ -1,0 +1,531 @@
+@media screen and (max-width: 1030px){
+    .mainBanner{
+        &__title{
+            font-size: 40px;
+        }
+
+        &__text{
+            margin-right: 20px;
+        }
+
+        &__imgBlock{
+            min-width: 300px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .textBlock{
+        &__tabs{
+            & > ul{
+                max-width: 300px;
+            }
+        }
+
+        &__article{
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .title{
+        font-size: 30px;
+    }
+
+    .mainBanner{
+        &__title{
+            font-size: 40px;
+        }
+    }
+
+
+    .costBlock{
+        &__card{
+            max-width: 600px;
+        }
+
+        &__bottom{
+            padding-left: 20px;
+            padding-right: 20px;
+            span{
+                font-size: 14px;
+            }
+        }
+
+        &__title{
+            margin-bottom: 0px;
+        }
+
+        &__button{
+            margin-left: 20px;
+        }
+    }
+
+    .costInfo{
+        flex-direction: column;
+        align-items: center;
+
+        &__text{
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__visual{
+            display: flex;
+            flex-direction: column;
+            max-width: 480px;
+            padding-left: 0;
+            align-items: center;
+        }
+        &__text{
+            padding-right: 0;
+            border-right: none;
+            max-width: 480px;
+        }
+
+        &__lineGraph{
+            width: 100%;
+        }
+    }
+
+    .countryRate{
+        &__col{
+            &:first-child{
+                .countryRate__item{
+                    margin-right: 10px;
+                }
+            }
+
+            &:last-child{
+                .countryRate__item{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .bestBlock{
+        &__blurInner{
+            max-width: 400px;
+        }
+    }
+
+    .numberOne{
+        &__paragraph{
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .mainBanner{
+        &__wrap{
+            flex-direction: column;
+        }
+
+        &__imgBlock{
+            max-width: 400px;
+        }
+
+        &__text{
+            margin-right: 0;
+        }
+    }
+
+    .countryRate{
+        &__grid{
+            flex-direction: column;
+            max-width: 500px;
+        }
+    }
+
+    .numberOne{
+
+        &__img{
+            width: 100%;
+            flex-shrink: 0;
+            max-width: 200px;
+            img{
+                width: 100%;
+            }
+        }
+
+        &__paragraph{
+            font-size: 16px;
+        }
+    }
+
+    .bestBlock{
+        &__bottomRow{
+            margin-left: -115px;
+        }
+
+        &__avatar{
+            margin-right: 15px;
+        }
+
+        &__topRow{
+            flex-direction: column-reverse;
+
+        }
+
+        &__time{
+            text-align: right;
+        }
+
+        &__blurBlock{
+            align-items: center;
+        }
+    }
+
+    .textBlock{
+        &__tabs{
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0px auto;
+
+            & > ul{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    .title{
+        font-size: 20px;
+    }
+
+    .mainBanner{
+        &__imgBlock{
+            max-width: 300px;
+            min-width: 0;
+        }
+
+        &__green{
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+
+        &__title{
+            text-align: center;
+        }
+
+        &__wrap{
+            padding-bottom: 40px;
+        }
+    }
+
+    .costBlock{
+        &__card{
+            margin-right: -10px;
+            margin-left: -10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            border-radius: 0;
+        }
+
+        &__paragraph{
+            font-size: 14px;
+        }
+
+        &__bottom{
+            flex-direction: column;
+            span{
+                text-align: center;
+            }
+        }
+
+        &__button{
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+
+    .costInfo{
+
+        &__text{
+            max-width: 300px;
+            padding-top: 20px;
+        }
+
+        &__paragraph{
+            font-size: 12px;
+            margin-top: 0px;
+        }
+
+        &__rateRow{
+            h5{
+                font-size: 28px;
+            }
+        }
+
+        &__visual{
+            max-width: 300px;
+            & > img{
+                width: 300px;
+            }
+        }
+
+        &__bottomLabel{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &__pin{
+            h5{
+                font-size: 20px;
+            }
+            &--med{
+                left: 25%;
+            }
+        }
+
+        &__semititle{
+            font-size: 16px;
+        }
+    }
+
+    .bestBlock{
+        &__bottomRow{
+            margin-left: 0;
+        }
+
+        &__bottomRow{
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 20px;
+        }
+
+        &__time{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+        }
+
+        &__blurInner{
+            max-width: 300px;
+        }
+
+        &__plate{
+            padding: 10px 15px;
+            font-size: 12px;
+        }
+
+        &__card{
+            position: relative;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: 0px auto;
+            margin-bottom: 25px;
+            padding: 10px 20px;
+            padding-bottom: 20px;
+        }
+
+        &__platesBlock{
+            justify-content: center;
+        }
+
+        &__link{
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+
+        &__name{
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        &__goal{
+            span{
+                font-size: 14px;    
+            }
+        }
+
+        &__profession{
+            text-align: center;
+        }
+
+        &__avatar{
+            margin-top: 10px;
+        }
+
+        &__goalsRow{
+            margin: 0px auto;
+        }
+    }
+
+    .numberOne{
+        &__wrap{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            flex-direction: column;
+        }
+
+        &__paragraph{
+            text-align: center;
+            font-size: 14px;
+            margin-left: 0;
+        }
+    }
+
+    .blogGrid{
+
+        &__wrap{
+            padding-top: 20px;
+        }
+
+        &__grid{
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        &__heading{
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .textBlock{
+        &__tabs{
+            margin-right: -10px;
+            margin-left: -10px;
+        }
+    }
+
+    .miniBanner{
+
+        &__wrap{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        &__body{
+            border-radius: 0;
+            box-shadow: none;
+            margin-right: -10px;
+            margin-left: -10px;
+        }
+
+        &__top{
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        &__bottom{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+
+    .faqBlock{
+        &__body{
+            padding-right: 30px;
+        }
+
+        &__paragraph{
+            font-size: 14px;
+        }
+
+        &__heading{
+            h5{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .countryRate{
+
+        &__grid{
+            margin-right: -10px;
+            margin-left: -10px;
+        }
+
+        &__itemText{
+            font-size: 14px;
+        }
+
+        &__col{
+            &:first-child{
+                .countryRate__item{
+                    margin-right: 0px;
+                }
+            }
+
+            &:last-child{
+                .countryRate__item{
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+
+    .technologies{
+        &__item{
+            flex-direction: column;
+            align-items: center;
+            span{
+                margin-bottom: 15px;
+                text-align: center;
+            }
+        }
+
+        &__link{
+            text-align: center;
+        }
+
+        &__heading{
+            font-size: 26px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        &__grid{
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+
+        &__img{
+            margin-right: 0;
+            width: 100px;
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+
+    .textBlock{
+
+        &__title{
+            br{
+                display: none;
+            }
+        }
+
+        &__article{
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        &__heading{
+            font-size: 18px;
+        }
+
+        &__paragraph{
+            font-size: 14px;
+        }
+    }
+}
